@@ -12,6 +12,10 @@
 #import "ALConversationProxy.h"
 
 #define CHANNEL_SPECIAL_CASE 7
+#define CHANNEL_DEFAULT_MUTE @"MUTE"
+#define CHANNEL_CONVERSATION_STATUS @"CONVERSATION_STATUS"
+
+
 /*********************
  type = 7 SPECIAL CASE
 *********************/
@@ -58,7 +62,10 @@ typedef enum
 -(void)parseMessage:(id) messageJson;
 -(NSNumber *)getChannelMemberParentKey:(NSString *)userId;
 -(BOOL) isNotificationMuted;
+-(BOOL) isConversationClosed;
+
 -(NSString*)getReceiverIdInGroupOfTwo;
+
 -(NSMutableDictionary *)getMetaDataDictionary:(NSString *)string;
 
 @end
