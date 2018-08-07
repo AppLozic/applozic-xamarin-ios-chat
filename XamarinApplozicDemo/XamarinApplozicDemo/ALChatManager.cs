@@ -184,10 +184,6 @@ namespace XamarinApplozicDemo
 
 			/******************************************** NOTIIFCATION SETTINGS  ********************************************/
 
-			ALUserDefaultsHandler.SetDeviceApnsType(0);
-			//For Distribution CERT::
-			//[ALUserDefaultsHandler setDeviceApnsType:(short)DISTRIBUTION];
-
 			//***//NSString* appName = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"];
 			//****// [ALApplozicSettings setNotificationTitle:appName];
 
@@ -260,8 +256,8 @@ namespace XamarinApplozicDemo
 			/*********************************************GOOLE API SETTINGS*******************************************************************/
 			ALUserDefaultsHandler.SetGoogleMapAPIKey("AIzaSyBnWMTGs1uTFuf8fqQtsmLk-vsWM7OrIXk"); //REPLACE WITH YOUR GOOGLE MAPKEY
 
-			ALApplozicSettings.SetNavigationControllerClassName(new ALChatCustomNavigation().Class.Name);
-            Console.WriteLine("SetNavigationControllerClassName :: " + ALApplozicSettings.CustomNavigationControllerClassName);
+			//ALApplozicSettings.SetNavigationControllerClassName(new ALChatCustomNavigation().Class.Name);
+            //Console.WriteLine("SetNavigationControllerClassName :: " + ALApplozicSettings.CustomNavigationControllerClassName);
            
             //Hide attachment options 
             //NSMutableArray attachmentOptionToHide = new NSMutableArray();

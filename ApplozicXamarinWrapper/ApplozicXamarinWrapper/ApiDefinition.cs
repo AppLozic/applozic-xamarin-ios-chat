@@ -1794,16 +1794,6 @@ namespace ApplozicXamarinWrapper
         [Export("setLoggedInUserStatus:")]
         void SetLoggedInUserStatus(string status);
 
-        // +(void)setDeviceApnsType:(short)type;
-        [Static]
-        [Export("setDeviceApnsType:")]
-        void SetDeviceApnsType(short type);
-
-        // +(short)getDeviceApnsType;
-        [Static]
-        [Export("getDeviceApnsType")]
-        //[Verify(MethodToProperty)]
-        short DeviceApnsType { get; }
 
         // +(BOOL)isUserLoggedInUserSubscribedMQTT;
         [Static]
