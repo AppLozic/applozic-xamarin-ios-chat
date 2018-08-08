@@ -1248,6 +1248,15 @@ namespace ApplozicXamarinWrapper
 		[Export("setHideAttachmentsOption:")]
 		void SetHideAttachmentsOption(NSMutableArray optionToHides);
 
+        //===============Group title default value=============================
+
+        [Static]
+        [Export("showChannelMembersInfoInNavigationBar:")]
+        void ShowChannelMembersInfoInNavigationBar(bool flag);
+
+        [Static]
+        [Export("isChannelMembersInfoInNavigationBarEnabled")]
+        bool IsChannelMembersInfoInNavigationBarEnabled { get; }
 
 	}
 

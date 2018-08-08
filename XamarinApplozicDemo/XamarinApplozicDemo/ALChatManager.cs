@@ -245,6 +245,7 @@ namespace XamarinApplozicDemo
 			ALUserDefaultsHandler.SetLoginUserConatactVisibility(false);
 			ALApplozicSettings.SetUserProfileHidden(false);
 			ALApplozicSettings.SetFontFace("Helvetica");
+            ALApplozicSettings.ShowChannelMembersInfoInNavigationBar(true);
 			//ALApplozicSettings.SetChatWallpaperImageName:@"<WALLPAPER NAME>"];
 
 			/***************************************** APPLICATION URL CONFIGURATION + ENCRYPTION  ***************************************/
