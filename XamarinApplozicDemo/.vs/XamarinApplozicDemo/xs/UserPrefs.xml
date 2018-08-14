@@ -1,12 +1,8 @@
 ﻿<Properties StartupConfiguration="{A279E1E6-C168-4A05-9A1A-9875B0176D15}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../ApplozicXamarinWrapper/ApplozicXamarinWrapper/obj/Debug/ios/ApplozicXamarinWrapper/ALUserDefaultsHandler.g.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../ApplozicXamarinWrapper/ApplozicXamarinWrapper/ApiDefinition.cs">
     <Files>
-      <File FileName="XamarinApplozicDemo/LoginViewController.cs" Line="71" Column="1" />
-      <File FileName="../ApplozicXamarinWrapper/ApplozicXamarinWrapper/obj/Debug/ios/ApplozicXamarinWrapper/ALApplozicSettings.g.cs" Line="398" Column="2" />
-      <File FileName="XamarinApplozicDemo/ALChatCustomNavigation.cs" Line="17" Column="39" />
-      <File FileName="XamarinApplozicDemo/ALChatManager.cs" Line="262" Column="13" />
-      <File FileName="../ApplozicXamarinWrapper/ApplozicXamarinWrapper/ApiDefinition.cs" Line="42" Column="43" />
-      <File FileName="../ApplozicXamarinWrapper/ApplozicXamarinWrapper/obj/Debug/ios/ApplozicXamarinWrapper/ALUserDefaultsHandler.g.cs" Line="245" Column="1" />
+      <File FileName="XamarinApplozicDemo/AppDelegate.cs" Line="39" Column="84" />
+      <File FileName="../ApplozicXamarinWrapper/ApplozicXamarinWrapper/ApiDefinition.cs" Line="8" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,10 +10,10 @@
           <Node name="XamarinApplozicDemo" expanded="True">
             <Node name="ApplozicXamarinWrapper" expanded="True">
               <Node name="References" expanded="True" />
+              <Node name="ApiDefinition.cs" selected="True" />
             </Node>
             <Node name="XamarinApplozicDemo" expanded="True">
               <Node name="References" expanded="True" />
-              <Node name="Packages" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -26,9 +22,11 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/adarsh/Documents/GitHub/applozic-xamarin-ios-chat/ApplozicXamarinWrapper/ApplozicXamarinWrapper/ApiDefinition.cs" line="507" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.XamarinApplozicDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C608EEE8-8156-4DA2-8D2F-51E34D0C7465" />
+  <MonoDevelop.Ide.ItemProperties.XamarinApplozicDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6286F932-A12B-474D-9112-9727443386EC" />
   <MultiItemStartupConfigurations />
 </Properties>
