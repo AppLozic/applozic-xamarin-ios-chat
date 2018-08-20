@@ -1,18 +1,14 @@
 ﻿<Properties StartupConfiguration="{A279E1E6-C168-4A05-9A1A-9875B0176D15}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../ApplozicXamarinWrapper/ApplozicXamarinWrapper/ApiDefinition.cs">
-    <Files>
-      <File FileName="XamarinApplozicDemo/AppDelegate.cs" Line="39" Column="84" />
-      <File FileName="../ApplozicXamarinWrapper/ApplozicXamarinWrapper/ApiDefinition.cs" Line="8" Column="33" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="XamarinApplozicDemo" expanded="True">
             <Node name="ApplozicXamarinWrapper" expanded="True">
               <Node name="References" expanded="True" />
-              <Node name="ApiDefinition.cs" selected="True" />
+              <Node name="NativeReferenceFolder" expanded="True" />
             </Node>
-            <Node name="XamarinApplozicDemo" expanded="True">
+            <Node name="XamarinApplozicDemo" expanded="True" selected="True">
               <Node name="References" expanded="True" />
             </Node>
           </Node>
@@ -20,13 +16,13 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/adarsh/Documents/GitHub/applozic-xamarin-ios-chat/ApplozicXamarinWrapper/ApplozicXamarinWrapper/ApiDefinition.cs" line="507" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.XamarinApplozicDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6286F932-A12B-474D-9112-9727443386EC" />
+  <MonoDevelop.Ide.ItemProperties.XamarinApplozicDemo PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.e43b3a6002954c5ea44eca0e91b65c24e47a384d" />
   <MultiItemStartupConfigurations />
 </Properties>
